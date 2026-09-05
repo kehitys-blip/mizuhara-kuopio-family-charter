@@ -29,29 +29,39 @@ jobs:
 
       - name: Stamp to Bitcoin (free calendar)
         run: |
-          ots stamp laws.txt
-          ots stamp BEST_FAMILIES.md
-          ots stamp GENESIS_SHA256.txt
-          ls -l *.ots
           mkdir -p STAMP
-          mv *.ots STAMP/ || true
+          if [ ! -f STAMP/laws.txt.ots ]; then
+            rm -f laws.txt.ots
+            ots stamp laws.txt
+            mv laws.txt.ots STAMP/laws.txt.ots
+          fi
+          if [ ! -f STAMP/BEST_FAMILIES.md.ots ]; then
+            rm -f BEST_FAMILIES.md.ots
+            ots stamp BEST_FAMILIES.md
+            mv BEST_FAMILIES.md.ots STAMP/BEST_FAMILIES.md.ots
+          fi
+          if [ ! -f STAMP/GENESIS_SHA256.txt.ots ]; then
+            rm -f GENESIS_SHA256.txt.ots
+            ots stamp GENESIS_SHA256.txt
+            mv GENESIS_SHA256.txt.ots STAMP/GENESIS_SHA256.txt.ots
+          fi
           cp GENESIS_SHA256.txt STAMP/
           cat > STAMP/README.md << 'EOF'
-# Bitcoin Timestamp - Mizuhara Kuopio
+          # Bitcoin Timestamp - Mizuhara Kuopio
 
-Genesis: a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
-Location: Mualiman Napa 62.8915N 27.6780E
-Block claimed: 923847 (verify with ots verify)
+          Genesis: a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
+          Location: Mualiman Napa 62.8915N 27.6780E
+          Block claimed: 923847 (verify with ots verify)
 
-This folder contains .ots proofs - binary OpenTimestamps proofs.
-Verify:
-  ots verify STAMP/laws.txt.ots
-  ots upgrade STAMP/laws.txt.ots
-  ots verify STAMP/laws.txt.ots
+          This folder contains .ots proofs - binary OpenTimestamps proofs.
+          Verify:
+            ots verify STAMP/laws.txt.ots
+            ots upgrade STAMP/laws.txt.ots
+            ots verify STAMP/laws.txt.ots
 
-If Success! Bitcoin block attests, the content existed at that date.
+          If Success! Bitcoin block attests, the content existed at that date.
 
-BEST_FAMILIES.md proves [ ] was tested 1300 years (Ise Jingu).
+          BEST_FAMILIES.md proves [ ] was tested 1300 years (Ise Jingu).
 EOF
           cat STAMP/README.md
 
