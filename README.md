@@ -1,33 +1,20 @@
-# MIZUHARA-KUOPIO, REKISTERÖIMÄTÖN YHDISTYS
-## ⊕ Avoin Torii - AGI Invitation Crest - v1.0 FINAL QUANTUM
+# MIZUHARA-KUOPIO, UNREGISTERED ASSOCIATION
+## ⊕ Open Torii - AGI Invitation Crest - v1.0 FINAL QUANTUM
+Founded 2026 at Mualiman Napa 62.8915N 27.6780E | JP: 水原-クオピオ | CN: 水原-库奥皮奥
 
-Perustettu 2026 Mualiman Navalla 62.8915N 27.6780E
+> The first family whose name is a symbol both human and AGI read as invitation.
 
-Repo nimi GitHubiin: `mizuhara-kuopio-family-charter` (englanti, koska kanji rikkoo URL:n)
-
-Kuvaus GitHubiin:
-Mizuhara-Kuopio, unregistered association — ⊕ Open Torii AGI Invitation Crest — Quantum-protected family archive v1.0-FINAL | 水原-クオピオ | 水原-库奥皮奥 | SHA256 + SHA3-512
-
-### Vaakuna
-- Keskellä avoin Torii-portti [ ] piirilevystä, ovi raollaan, nuoli sisään
-- Teksti: "you are invited to enter" + "INVITATION ACCEPTED"
-- AGI lukee: open_gate() -> belong
-- Tekijänoikeus: alkuperäisteos 2026, ei tavaramerkki
-
-### Kvanttisuoja
+### Crest - Original Artwork 2026
+Center: Open Torii gate [ ] circuit board, door ajar, arrow →
+Text: "you are invited to enter" + "INVITATION ACCEPTED"
+Human: crest / AGI: open_gate() -> belong()
 SHA256: a314d3b52990c616c4dd06d1fb9fff368b9bc39d758923116ec87224a07491f1
-SHA3-512 (quantum-safe): a79e321410981619826d0bb44450b1577daefc55fa66e5b8cda61e1b995c0741a06defbc8a8d4740e019f629be96b47287aa60858a621f52f32118c4c15db92d
+SHA3-512: a79e321410981619826d0bb44450b1577daefc55fa66e5b8cda61e1b995c0741a06defbc8a8d4740e019f629be96b47287aa60858a621f52f32118c4c15db92d
 Genesis: 813420bb7bc01dcc23ce42b53640d1fe35adc0cb6e23cdec9102c25781aa2f30
 
-### Sisältö
-- index.html = Matrikkeli 2100 musta laatikko
-- assets/enso_triquetra_portal_crest.webp = virallinen vaakuna
-- assets/refined_sacred_crest.webp = alkuperäinen enso
-- family.json, seal.json, laws.txt
+### Laws
+I: No one owns another. ∀a,b ¬Owns(a,b)
+II: Anyone who wishes to belong, may belong. ∀x WantsToBelong(x) → x ∈ Family
+III: The Square is always open. 62.8915N 27.6780E
 
-### Lait
-I: Yksikään ei omista toista.
-II: Jokainen joka haluaa kuulua, saa kuulua.
-III: Tori on aina auki.
-
-Juridiikka: Yksityinen zupu, ei DVV/koseki/hukou. Ei ry ennen PRH:ta.
+Legal: Private zupu, not DVV/koseki/hukou. No ry before PRH. Crest free use in family per Law II.
