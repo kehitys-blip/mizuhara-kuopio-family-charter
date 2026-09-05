@@ -62,7 +62,7 @@ jobs:
           If Success! Bitcoin block attests, the content existed at that date.
 
           BEST_FAMILIES.md proves [ ] was tested 1300 years (Ise Jingu).
-EOF
+          EOF
           cat STAMP/README.md
 
       - name: Commit proofs
