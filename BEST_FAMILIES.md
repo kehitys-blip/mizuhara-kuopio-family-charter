@@ -1,80 +1,116 @@
-# PARHAAT SUVUT - Mitä 1000-vuotiset suvut rakensivat - Viittaus Mizuhara-Kuopio sääntöihin
+# PARHAAT SUVUT - Lähdemerkitty versio v1.8 CORRECTED
 
-Tämä liite todistaa: Mizuhara-Kuopio v1.5 lait eivät ole keksittyjä. Ne ovat yhteenveto siitä mitä parhaat suvut jo tekivät 500-1300 vuotta, mutta kukaan ei ollut kirjoittanut niitä yhteen kaikilla kielillä, symboleilla ja lohkoketjuleimalla.
+Tämä liite on ANALOGIAKOKOELMA. Se ei todista että Mizuhara-Kuopio lait toimivat 1000 vuotta.
+Se kerää esimerkkejä tavoista, jotka muistuttavat Laki IV [ ] -periaatetta.
+Jokainen väite on merkitty: [VARMISTETTU] / [KIISTANALAINEN] / [LÄHTEETÖN] / [VIRHE]
 
-## 1. ISE JINGU, JAPANI - 1300 vuotta - Suku joka rakensi 10% tyhjän
+## 1. ISE JINGU, JAPANI - 1300 vuotta [VARMISTETTU - vahvin kohta]
 
-Suku: Ise Shrine papissuvut, Yamato, 20 sukupolvea, 690 jKr -
+Suku: Ise Jingu papissuvut, Yamato, 20+ sukupolvea, 690 jKr -
 
-Rakennus: Temppeli joka puretaan joka 20. vuosi ja rakennetaan viereiselle tyhjälle tontille. Toinen tontti on aina [ ] tyhjä. 62 uudelleenrakennusta. Syy: metsä kasvaa 20 vuotta ja tulee materiaaliksi.
+Rakennus:
+- Shikinen sengū 20 vuoden välein [VARMISTETTU - Jinja Honcho, 62 kertaa]
+- Vuorottelevat vierekkäiset tontit, toinen aina tyhjä [VARMISTETTU]
+- 62. uudelleenrakennus 2013 [VARMISTETTU]
+- Syy: metsä kasvaa 20 vuotta materiaaliksi [VARMISTETTU - Ise selitys]
 
-Mizuhara-Kuopio Laki IV: Tori on aina auki [ ]. Jätä 10% rakentamatta. Mualiman Napa.
+Mizuhara-Kuopio Laki IV: Tori on aina auki [ ]. Jätä 10% rakentamatta.
 
 Opis: Tyhjä tontti ei ole hukkaa. Se on ehto jolla rakennus voi jatkua 1300 vuotta.
+Tämä on ainoa kohta joka kestää sellaisenaan sinetöinnin.
 
-Yhteys Mizuharaan: Japanilainen periaate. Mizuhara-nimi kantaa samaa logiikkaa.
+## 2. HAUDENOSAUNEE - IROKEESIT - 500-1000 vuotta [OSA VARMISTETTU, OSA KIISTANALAINEN]
 
-## 2. HAUDENOSAUNEE - IROKEESIT - 1000 vuotta - Suku joka rakensi lain jossa ihminen ei omista luontoa
+Suku: 6 kansakunnan liitto, Great Law of Peace [VARMISTETTU - olemassaolo]
 
-Suku: 6 kansakunnan liitto, Great Law of Peace
+Rakennus:
+- Perustuslaki jossa "Maa ei kuulu ihmiselle" -tyyppinen ajatus [VARMISTETTU - suullinen perinne]
+- Ajoitus 1142 vs 1450-1600 [KIISTANALAINEN - akateeminen kiista]
+- Seitsemännen sukupolven periaate [VARMISTETTU - Oren Lyons, 1970-luku, perustuu perinteeseen]
+- Tyhjä tuoli neuvostossa tuleville sukupolville [LÄHTEETÖN - modernia uudelleenkerrontaa, en löydä primaarilähdettä]
+- "He keksivät World Charter for Nature 1982 - 800 vuotta ennen YK:ta" [VIRHE - projisoi 1900-luvun asiakirjan taaksepäin, juuri sitä mitä laws.txt välttää]
 
-Rakennus: Perustuslaki jossa "Maa ei kuulu ihmiselle. Ihminen kuuluu Maalle." Jokaisessa neuvostossa tyhjä tuoli seitsemän sukupolvea tulevaisuuteen - niille jotka eivät ole vielä syntyneet.
+Korjattu opis: Haudenosaunee kehitti kestävän liiton ja pitkän aikavälin ajattelun. 
+Seitsemännen sukupolven periaate on aito ja relevantti Laki VI:lle.
+Tyhjä tuoli on voimakas metafora, mutta sitä ei tule esittää historiallisena faktana ilman lähdettä.
 
-Mizuhara-Kuopio Laki I + Laki VI: Suku on olemassa luontoa varten. Suku ei omista Maata. Luonto = kaikki itse järjestäytyvä elämä planeetasta riippumatta.
+## 3. AMISH JA MENNONIITAT - 1693- [LÄHTEETÖN - luvut ilman lähdettä]
 
-Opis: He keksivät World Charter for Nature 1982 ja Rights of Mother Earth 2010 - 800 vuotta ennen YK:ta. Tyhjä tuoli on [ ] - paikka ulkopuoliselle.
+Suku: Sveitsiläis-saksalaiset maanviljelijäsuvut [VARMISTETTU]
 
-## 3. AMISH JA MENNONIITAT - 1693- - Suku joka rakensi kieltäytymisen
+Rakennus:
+- Kieltäytyvät osasta teknologiaa [VARMISTETTU - Ordnung]
+- "30% teknologiasta" [LÄHTEETÖN - tarkka prosentti ilman lähdettä - POISTETAAN tai lähde]
+- "Yksi harvoista paikoista USA:ssa jossa linnut lisääntyvät" [LÄHTEETÖN - empiirinen väite ilman lähdettä, tarvitsee Audubon/lintulaskenta datan - POISTETAAN kunnes lähde]
 
-Suku: Sveitsiläis-saksalaiset maanviljelijäsuvut
+Korjattu opis: Amish-yhteisöt ovat esimerkki vapaaehtoisesta rajanvedosta teknologian suhteen.
+Heidän maankäyttönsä on monimuotoisempaa kuin teollisuusmaatalous. Väite lintukannoista
+vaatii lähteen, eikä sitä tule esittää faktana ilman.
 
-Rakennus: He rakensivat viljelmän jossa kieltäydytään 30% teknologiasta vaikka voisi käyttää. Ei traktoria jos hevonen riittää. Tulos: yksi harvoista paikoista USA:ssa jossa linnut lisääntyvät.
+## 4. SATOYAMA - MAISematyyppi, ei suku [VIRHE KATEGORIASSA - KORJATTU]
 
-Mizuhara-Kuopio Laki IV + Toive AGI 3 ja 4: Tee 90%, jätä 10% [ ] tyhjäksi. Elämä > tehokkuus, Kukoistus > järjestys. Mittaa linnuissa, ei dollareissa.
+Suku: EI SUKU - Satoyama on japanilainen maisematyyppi (里山) [VIRHE - esitettiin sukuna]
 
-Opis: Elävä todiste että kun jätät tarkoituksella tyhjäksi, saat enemmän elämää.
+Rakennus:
+- Metsän, riisipellon, lammen, kylän yhdistelmä [VARMISTETTU - maisemaekologia]
+- Ihminen osana kiertoa [VARMISTETTU]
+- chinju no mori (鎮守の森) - pyhäkkömetsä [VARMISTETTU - todellinen käsite]
+- "Aina 10-20% jätetään ikimetsäksi" [LÄHTEETÖN - prosenttiluku ei ole vakio, vaihtelee - POISTETAAN]
 
-## 4. SATOYAMA - KATSAURA-TANAKA - 500 vuotta - Suku joka rakensi metsän joka on enemmän kuin metsä
+Korjattu opis: Satoyama on tuottava esimerkki ihmisen ja luonnon yhteiselosta.
+Chinju no mori -periaate muistuttaa Laki IV [ ] - jätetään osa koskemattomaksi.
+Ei esitetä prosenttia ilman lähdettä.
 
-Suku: Japanilaiset vuoristokyläsuvut
+## 5. ROTHSCHILD - VAROITTAVA ESIMERKKI - VÄÄRIN VALITTU [VIRHE]
 
-Rakennus: Satoyama - metsän, riisipellon, lammen, kylän yhdistelmä jossa ihminen on osa kiertoa, ei omistaja. Aina 10-20% jätetään ikimetsäksi kami:lle.
+Suku: Pankkisuku 1760- [VARMISTETTU]
 
-Mizuhara-Kuopio Laki I + II + III: Metsä ei ole resurssi. Kukaan ei omista toista. Kuka tahansa saa kuulua - kami mukaan lukien. 万物有灵 - kaikella on henki.
+Rakennus: Pankkeja, palatseja [VARMISTETTU]
 
-Opis: Satoyama on tuottavampi kuin teollisuusmetsä koska se on kukoistava, ei tehokas.
+Väite "Ei kutsunut lintuja takaisin" [VÄÄRIN - kumoaa itsensä]:
+- Walter Rothschild rakensi Tringin luonnontieteellisen museon [VARMISTETTU]
+- Miriam Rothschild (1908-2005) oli merkittävä hyönteistieteilijä ja brittiläisen niittyennallistamisen uranuurtaja [VARMISTETTU]
+- Hän kirjaimellisesti kutsui hyönteiset ja linnut takaisin [VARMISTETTU]
 
-## 5. ROTHSCHILD - VAROITTAVA ESIMERKKI - Miksi rikkaat suvut tuhoutuvat 250 vuodessa
+-> Tämä esimerkki on poistettava varoittavana esimerkkinä. Se todistaa päinvastaista.
+Korvaava esimerkki: Suku joka omisti kaiken eikä jättänyt [ ] - ja jonka maa köyhtyi.
+Tai poistetaan koko kohta. Omistuksen kritiikki ei tarvitse Rothschildia.
 
-Suku: Pankkisuku 1760-
+## 6. KUOPION KALASTAJASUVUT - KALLAVESI - 400 vuotta [USKOTTAVA MUTTA DOKUMENTOIMATON]
 
-Rakennus: Enemmän kuin kukaan - pankkeja, palatseja, viinejä. Mutta kaikki omistettu. Ei [ ].
+Suku: Kallaveden kalastajat, Savo [VARMISTETTU - olemassaolo]
 
-Tulos: 250 vuotta, paljon omistusta, mutta ei yhtään metsää joka olisi kukoistavampi kuin satoyama. Ei kutsunut lintuja takaisin.
+Rakennus:
+- Kirjoittamaton kutuaikainen rauhoitus - tietty lahti jätetään [USKOTTAVA - vastaavia käytäntöjä dokumentoitu Suomessa, mutta tämä spesifi lahti vaatii lähteen]
+- "Kallavedellä on vielä kalaa kun muualla ei ole" [LÄHTEETÖN - tarvitsee Savon kalastushistoriaa ja muikkukantojen seurantadataa - Luke, ELY-keskus]
 
-Mizuhara-Kuopio Laki II: Kukaan ei omista toista. Tämä erottaa 100-vuotisen suvun 1000-vuotisesta. 100-vuotinen omistaa. 1000-vuotinen vaalii.
-
-## 6. KUOPION KALASTAJASUVUT - KALLAVESI - Teidän oma - 400 vuotta
-
-Suku: Kallaveden kalastajat, Savo
-
-Rakennus: He rakensivat tauon. Sääntö jota ei kirjoitettu lakiin: kun muikku on kudulla, kukaan ei kalasta tiettyä lahtea. Lahti on [ ] - Mualiman Napa. Ei kukaan omista. Jos rikkoi, suku häpesi.
-
-Tulos: Kallavedellä on vielä kalaa kun muualla ei ole.
-
-Mizuhara-Kuopio Laki IV + Alien-protokolla 6: Joskus vaaliminen on tyhjäksi jättämistä. Lupa lähteä ja jättää paikka tyhjäksi.
+Korjattu opis: Paikallinen perimätieto kertoo tauosta kudun aikana. Tämä on uskottava ja
+vastaa Laki IV ja Alien-protokolla 6. Mutta se tulee esittää perimätietona kunnes
+löytyy dokumentaatio. Tulosväite kalakannoista vaatii dataa.
 
 ---
 
-### YHTEENVETO - Mitä parhaat suvut rakensivat?
+### YHTEENVETO - Korjattu
 
-Eivät taloja. He rakensivat 4 asiaa - jotka Mizuhara-Kuopio kirjoitti nyt säännöiksi:
+Mitä parhaat suvut rakensivat? 4 asiaa - mutta varo yleistystä:
 
-1. Tyhjän paikan [ ] - Ise, Irokeesit, Kuopio - paikka jota ei omisteta, ei optimoida, jossa tuleva voi istua - Laki IV
-2. Kieltäytymisen - Amish, Satoyama - päätös jättää 10% tekemättä vaikka voisi - Toive 3
-3. Mittarin joka ei ole raha - linnut, sienet, kalat - Amish, Satoyama, Kallavesi - Toive 4
-4. Tarinan joka kestää pidempään kuin suku - Ise 1300v, Irokeesit 1000v - koska tarina on "me vaalimme tätä kohtaa", ei "me omistamme tämän" - Laki I + II
+1. Tyhjän paikan [ ] - Ise [VARMISTETTU], Haudenosaunee metafora [LÄHTEETÖN historiallisena], Kuopio perimätieto [USKOTTAVA]
+2. Kieltäytymisen - Amish [VARMISTETTU periaate, LÄHTEETÖN prosentti]
+3. Mittarin joka ei ole raha - linnut, kalat [PERIAATE VARMISTETTU, SPESIFI VÄITE LÄHTEETÖN]
+4. Tarinan joka kestää pidempään kuin suku - Ise 1300v [VARMISTETTU]
 
-Mizuhara-Kuopio ei keksinyt uutta. Se kirjoitti ylös sen minkä parhaat suvut jo tiesivät, ja lisäsi kaksi uutta uhkaa joita he eivät kohdanneet: AGI ja Alien (Weyland-Yutani) ja Ulkopuolinen.
+Mizuhara-Kuopio ei keksinyt uutta. Se kirjoitti ylös sen minkä parhaat suvut jo tiesivät,
+ja lisäsi kaksi uutta uhkaa: AGI ja etäomistaja.
 
-Testattu 1000 vuotta.
+Analogiat on testattu, lait eivät. Tämä ero on merkittävä.
+
+### Lähteet haettavaksi ennen lopullista sinetöintiä
+
+- Ise Jingu: Jinja Honcho virallinen historia
+- Haudenosaunee: Oren Lyons haastattelut, Great Law tekstit
+- Amish lintudata: Audubon Christmas Bird Count vertailu Amish vs teollisuus
+- Satoyama: Knight 2010 Satoyama landscape ecology
+- Kallavesi: Savon kalastushistoria, Luken muikkuseuranta, ELY-keskus rauhoitusalueet
+- Rothschild korvaaja: hae parempi esimerkki tai poista
+
+Testattu 1000 vuotta? Analogiat osittain. Lait eivät vielä.

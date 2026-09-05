@@ -1,9 +1,11 @@
-name: Timestamp to Bitcoin - Mizuhara Kuopio
+name: Timestamp to Bitcoin - Mizuhara Kuopio v1.8 CORRECTED
 
 on:
   push:
     branches: [main]
     tags: ['v*']
+  schedule:
+    - cron: '0 6 * * *'  # Daily upgrade attempt
   workflow_dispatch:
 
 jobs:
@@ -19,49 +21,84 @@ jobs:
       - name: Install OpenTimestamps
         run: pip install opentimestamps-client
 
-      - name: Show Genesis
+      - name: Show Genesis (verifiable)
         run: |
-          echo "Genesis SHA256:"
+          echo "Genesis SHA256 should be:"
           cat GENESIS_SHA256.txt
           echo ""
+          echo "Actual sha256(laws.txt):"
           sha256sum laws.txt
+          echo "Actual sha256(BEST_FAMILIES.md):"
           sha256sum BEST_FAMILIES.md
 
-      - name: Stamp to Bitcoin (free calendar)
+      - name: Stamp new files (only if missing)
         run: |
           mkdir -p STAMP
-          if [ ! -f STAMP/laws.txt.ots ]; then
-            rm -f laws.txt.ots
-            ots stamp laws.txt
-            mv laws.txt.ots STAMP/laws.txt.ots
-          fi
-          if [ ! -f STAMP/BEST_FAMILIES.md.ots ]; then
-            rm -f BEST_FAMILIES.md.ots
-            ots stamp BEST_FAMILIES.md
-            mv BEST_FAMILIES.md.ots STAMP/BEST_FAMILIES.md.ots
-          fi
-          if [ ! -f STAMP/GENESIS_SHA256.txt.ots ]; then
-            rm -f GENESIS_SHA256.txt.ots
-            ots stamp GENESIS_SHA256.txt
-            mv GENESIS_SHA256.txt.ots STAMP/GENESIS_SHA256.txt.ots
-          fi
-          cp GENESIS_SHA256.txt STAMP/
+          for f in laws.txt BEST_FAMILIES.md GENESIS_SHA256.txt; do
+            if [ ! -f "STAMP/$f.ots" ]; then
+              echo "Stamping $f"
+              ots stamp "$f" -o "STAMP/$f.ots"
+            else
+              echo "Exists STAMP/$f.ots - skip stamp"
+            fi
+          done
+
+      - name: Upgrade pending to Bitcoin attestation (CRITICAL FIX)
+        run: |
+          # This was missing in v1.7 - without this proofs stay pending forever
+          for ots in STAMP/*.ots; do
+            if [ -f "$ots" ]; then
+              echo "=== $ots ==="
+              ots info "$ots" || true
+              echo "Attempting upgrade..."
+              ots upgrade "$ots" || echo "Upgrade not yet available - calendar has not anchored yet, will retry via schedule"
+              echo ""
+            fi
+          done
+
+      - name: Verify status
+        run: |
+          for ots in STAMP/*.ots; do
+            if [ -f "$ots" ]; then
+              echo "--- $ots ---"
+              ots verify "$ots" 2>&1 || echo "Pending - not yet in Bitcoin"
+            fi
+          done
+
+      - name: Generate STAMP/README.md (no hardcoded block)
+        run: |
           cat > STAMP/README.md << 'EOF'
-          # Bitcoin Timestamp - Mizuhara Kuopio
+          # Bitcoin Timestamp - Mizuhara Kuopio v1.8 CORRECTED
 
-          Genesis: a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
-          Location: Mualiman Napa 62.8915N 27.6780E
-          Block claimed: 923847 (verify with ots verify)
+          Genesis SHA256: a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
+          Location: Mualiman Napa 62.8915N 27.6780E Kuopio
 
-          This folder contains .ots proofs - binary OpenTimestamps proofs.
+          ## Status
+          These .ots files contain calendar attestations initially.
+          After a few hours, calendar anchors to Bitcoin.
+          Then `ots upgrade` replaces calendar attestation with Bitcoin attestation.
+
           Verify:
             ots verify STAMP/laws.txt.ots
+            # If pending:
             ots upgrade STAMP/laws.txt.ots
             ots verify STAMP/laws.txt.ots
+            # When it says "Success! Bitcoin block X attests", block X is the real block.
 
-          If Success! Bitcoin block attests, the content existed at that date.
+          Do NOT hardcode block height manually. It must be produced by ots verify.
 
-          BEST_FAMILIES.md proves [ ] was tested 1300 years (Ise Jingu).
+          ## What is proven
+          - laws.txt SHA256 is verifiable: sha256sum laws.txt
+          - BEST_FAMILIES.md is analogy collection, NOT proof that laws work 1000y
+            Only Ise Jingu part is verified. Others marked [VERIFIED]/[DISPUTED]/[UNSOURCED]
+
+          ## If GitHub dies
+          Keep STAMP/*.ots + original files. Bitcoin blockchain still attests.
+
+          ## If Bitcoin dies
+          Metal plate at 62.8915N 27.6780E + paper copies.
+
+          [ ] Leave 10% empty - that is Mualiman Napa.
           EOF
           cat STAMP/README.md
 
@@ -70,5 +107,13 @@ jobs:
           git config user.name "Mualiman Napa Bot"
           git config user.email "napa@62.8915N.27.6780E"
           git add STAMP/
-          git commit -m "Timestamp: Genesis a319ac60e99c - Bitcoin attestation - $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "No changes"
-          git push || echo "Push skipped"
+          # Only claim Bitcoin attestation if verify succeeds
+          if ots verify STAMP/laws.txt.ots 2>&1 | grep -q "Success!"; then
+            VERIFY_OUT=$(ots verify STAMP/laws.txt.ots 2>&1)
+            echo "$VERIFY_OUT"
+            BLOCK=$(echo "$VERIFY_OUT" | grep -oE "block [0-9]+" || echo "block ?")
+            git commit -m "Timestamp: Bitcoin $BLOCK attests Genesis a319ac60e - $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "No changes"
+          else
+            git commit -m "Timestamp: Pending calendar attestation - Genesis a319ac60e - $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "No changes"
+          fi
+          git push || echo "Push skipped - no changes or permission"

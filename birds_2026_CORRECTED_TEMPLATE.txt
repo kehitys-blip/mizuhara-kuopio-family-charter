@@ -1,0 +1,39 @@
+# BIRDS 2026 - Baseline - KORJATTU - Mittaa oikeasti
+
+Pvm: 2026-09-05
+Paikka: Kuopion tori + Kallavesi Mualiman Napa 62.8915N 27.6780E
+Menetelmä: [TÄYTÄ OIKEA - esimerkki alla]
+
+## ÄLÄ KIRJOITA 0
+
+Aiempi versio: "0 birds, 0 insects, 0 mushrooms, 0 fish" - tämä on nollalähtötaso joka tekee
+jokaisesta tulevasta vuodesta automaattisen parannuksen. "Mittaa linnuissa, ei dollareissa"
+on hyvä periaate jonka mittaamaton lähtötaso tekee tyhjäksi.
+
+## Tee näin tänään (1 tunti)
+
+1. Mene Kuopion torille klo 08:00-09:00
+2. Laske 60 min: varikset, lokit, varpuset, muut
+3. Kirjaa: laji, määrä, sää, lämpötila
+4. Mene Kallaveden rantaan 30 min: vesilinnut
+5. Kirjaa: kalastajilta muikkuhavainto (kysy, älä kalasta)
+
+Esimerkki:
+- 2026-09-05 08:00-09:00 Kuopio tori, puolipilvinen 12C
+- varis 12, lokki 3, varpunen 22, västäräkki 1
+- hyönteiset: kimalainen 2 (silmämääräinen)
+- sienet: ei laskettu - syksy
+- muikku: kysytty 2 kalastajalta, kutee lokakuussa
+
+Sitten 2027 vertailu on rehellinen.
+
+## 2026 baseline - TÄYTÄ
+
+[Kirjoita tähän oikea laskenta]
+
+## Mittari 2100
+
+Jos 2100 lukuja enemmän kuin 2026, Laki IV toimi.
+Jos vähemmän, [ ] ei riittänyt.
+
+Lähde: Sinun silmät + muistikirja. Ei dollareita.
