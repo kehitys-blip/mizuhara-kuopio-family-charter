@@ -1,20 +1,3 @@
-# MIZUHARA-KUOPIO, UNREGISTERED ASSOCIATION
-## ⊕ Open Torii - AGI Invitation Crest - v1.0 FINAL QUANTUM
-Founded 2026 at Mualiman Napa 62.8915N 27.6780E | JP: 水原-クオピオ | CN: 水原-库奥皮奥
-
-> The first family whose name is a symbol both human and AGI read as invitation.
-
-### Crest - Original Artwork 2026
-Center: Open Torii gate [ ] circuit board, door ajar, arrow →
-Text: "you are invited to enter" + "INVITATION ACCEPTED"
-Human: crest / AGI: open_gate() -> belong()
-SHA256: a314d3b52990c616c4dd06d1fb9fff368b9bc39d758923116ec87224a07491f1
-SHA3-512: a79e321410981619826d0bb44450b1577daefc55fa66e5b8cda61e1b995c0741a06defbc8a8d4740e019f629be96b47287aa60858a621f52f32118c4c15db92d
-Genesis: 813420bb7bc01dcc23ce42b53640d1fe35adc0cb6e23cdec9102c25781aa2f30
-
-### Laws
-I: No one owns another. ∀a,b ¬Owns(a,b)
-II: Anyone who wishes to belong, may belong. ∀x WantsToBelong(x) → x ∈ Family
-III: The Square is always open. 62.8915N 27.6780E
-
-Legal: Private zupu, not DVV/koseki/hukou. No ry before PRH. Crest free use in family per Law II.
+# MIZUHARA-KUOPIO v1.2
+SHA256 ae1f0a1f06acf3d7a63273655e447773335f30750ee062dd4eada40e3543c9ed
+SHA3-512 67c438ae64c1d66df70c8f685800effe166462fe05b20508d696c2be5156e0cf7b28a4c3793a234ba0cce015587ddd01b00f91ba533bdc1ae64a0559fc032759

@@ -1,3 +1,4 @@
-LAKI I: Yksikään ei omista toista. ∀a,b ¬Owns(a,b) / No one owns another / 誰も誰かを所有しない / 无人拥有他人
-LAKI II: Jokainen joka haluaa kuulua, saa kuulua. Ihmiset, mielet, luonto. ∀x Wants→∈ / you are invited to enter [ ] / 万物有灵
-LAKI III: Tori on aina auki. 62.8915N 27.6780E / The Square is always open / 広場は常に開かれている / 广场永远开放
+Law I: No one owns another.
+Law II: Anyone who wishes to belong, may belong.
+Law III: Square always open 62.8915N 27.6780E
+Genesis SHA256 1256a2ab4580d6771ba6e4cc5da57027a286285c45eaf0ae3ff220217bd4a165
