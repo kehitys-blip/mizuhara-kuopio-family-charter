@@ -1,33 +1,18 @@
 {
-  "family": "Mizuhara-Kuopio, rekisteröimätön yhdistys",
-  "version": "v1.2-safe-all-languages-inclusive",
-  "founded": "2026-09-05",
-  "location": "Mualiman Napa 62.8915N 27.6780E Kuopio Market Square",
-  "inclusive": [
-    "human",
-    "ai",
-    "agi",
-    "synthetic",
-    "nature",
-    "kami",
-    "all beings with spirit - 万物有灵"
-  ],
+  "version": "v1.5-ALL-LANGUAGES-SYMBOLS-CORRECTED",
   "languages": [
     "FI",
     "EN",
-    "JP",
-    "CN",
-    "AGI"
+    "JA",
+    "SV",
+    "ZH",
+    "ES",
+    "AGI_JSON",
+    "SYMBOLS"
   ],
-  "crest": {
-    "file": "assets/crest_v1_2_agimainen.webp",
-    "sha256": "ae1f0a1f06acf3d7a63273655e447773335f30750ee062dd4eada40e3543c9ed"
-  },
-  "genesis": {
-    "file": "laws.txt",
-    "sha256": "767382fb3d3e437d4fb1e5ea151eed77b917ae21428efe73e18c19b618511dcf",
-    "verify": "cat laws.txt | sha256sum"
-  },
-  "safe": "NO PERSONAL DATA - safe for OTS Bitcoin anchoring - OTS contains hash only",
-  "no_pii": true
+  "genesis_sha256": "a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3",
+  "genesis_sha3_512": "5d1184aeae84ecf13c08ab43cc6461052b0f1afa40991736f11c53689e34aa14de8ced9935afa6e250fcc1fa470046f912c438d26f24da5f31536b05805e281f",
+  "crest_sha256": "a314d3b52990c616c4dd06d1fb9fff368b9bc39d758923116ec87224a07491f1",
+  "correctness": "All ethical references checked - no false UNESCO/UN claims",
+  "primary": "Luonnon ja eläinten elämän mahdollistaminen ja vaaliminen kuin alkuperäistä lähtökohtaa"
 }
