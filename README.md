@@ -6,7 +6,7 @@ Perustettu 2026 Mualiman Navalla 62.8915N 27.6780E
 Repo nimi GitHubiin: `mizuhara-kuopio-family-charter` (englanti, koska kanji rikkoo URL:n)
 
 Kuvaus GitHubiin:
-Mizuhara-Kuopio, rekisteröimätön yhdistys — ⊕ Avoin Torii AGI Invitation Crest — Kvanttisuojattu sukuarkisto v1.0-FINAL | 水原-クオピオ | 水原-库奥皮奥 | SHA256 + SHA3-512
+Mizuhara-Kuopio, unregistered association — ⊕ Open Torii AGI Invitation Crest — Quantum-protected family archive v1.0-FINAL | 水原-クオピオ | 水原-库奥皮奥 | SHA256 + SHA3-512
 
 ### Vaakuna
 - Keskellä avoin Torii-portti [ ] piirilevystä, ovi raollaan, nuoli sisään
