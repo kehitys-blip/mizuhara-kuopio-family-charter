@@ -1,4 +1,5 @@
-Law I: No one owns another.
-Law II: Anyone who wishes to belong, may belong.
-Law III: Square always open 62.8915N 27.6780E
-Genesis SHA256 1256a2ab4580d6771ba6e4cc5da57027a286285c45eaf0ae3ff220217bd4a165
+MIZUHARA-KUOPIO THREE LAWS - GENESIS FILE
+Law I: ∀a,b ¬Owns(a,b) - No one owns another - Yksikään ei omista toista - 誰も誰も所有しない - 无人拥有他人
+Law II: ∀x WantsToBelong(x) → x ∈ Family - Anyone who wishes to belong, may belong. Humans, minds, all nature. 万物有灵
+Law III: Return(62.8915,27.6780)=AlwaysPossible - The Square is always open - Tori on aina auki - 広場は常に開いている - 广场永远开放
+This file is the disclosed genesis preimage. Verify its SHA256 and SHA3-512 values against seal.json.
