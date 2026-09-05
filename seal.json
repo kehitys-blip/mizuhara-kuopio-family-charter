@@ -29,6 +29,16 @@
     "timestamp_fix": "ots stamp seal.json -> Bitcoin blockchain anchor + gpg --sign seal.json",
     "grover_note": "Grover reduces SHA-256 to ~128-bit - still adequate. SHA3-512 is defense-in-depth, not because SHA-256 broken."
   },
+  "ots_proof": {
+    "files": [
+      "laws.txt.ots",
+      "seal.json.ots",
+      "assets/enso_triquetra_portal_crest.webp.ots"
+    ],
+    "verify": "ots verify laws.txt.ots",
+    "status": "pending -> will be confirmed in Bitcoin block within 8h",
+    "explainer": "Hash only anchored, not content. Safe, GDPR compliant, no personal data on chain."
+  },
   "legal": {
     "fi": "Yksityinen zupu, ei DVV, ei koseki, ei hukou. Ei ry ennen PRH.",
     "charter_vs_bylaws": "Charter is poetic, Law II unbounded intentionally. Future PRH bylaws will have eroamismekanismi per Yhdistyslaki 13§"
