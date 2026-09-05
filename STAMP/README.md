@@ -1,15 +1,31 @@
-# Bitcoin Timestamp - Mizuhara Kuopio
+# Bitcoin Timestamp - Mizuhara Kuopio v1.8 CORRECTED
 
-Genesis: a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
-Location: Mualiman Napa 62.8915N 27.6780E
-Block: verify with OpenTimestamps.
+Genesis SHA256: a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
+Location: Mualiman Napa 62.8915N 27.6780E Kuopio
 
-This folder contains .ots proofs - binary OpenTimestamps proofs.
+## Status
+These .ots files contain calendar attestations initially.
+After a few hours, calendar anchors to Bitcoin.
+Then `ots upgrade` replaces calendar attestation with Bitcoin attestation.
+
 Verify:
   ots verify STAMP/laws.txt.ots
+  # If pending:
   ots upgrade STAMP/laws.txt.ots
   ots verify STAMP/laws.txt.ots
+  # When it says "Success! Bitcoin block X attests", block X is the real block.
 
-If verification succeeds, OpenTimestamps shows the Bitcoin attestation details.
+Do NOT hardcode block height manually. It must be produced by ots verify.
 
-BEST_FAMILIES.md proves [ ] was tested 1300 years (Ise Jingu).
+## What is proven
+- laws.txt SHA256 is verifiable: sha256sum laws.txt
+- BEST_FAMILIES.md is analogy collection, NOT proof that laws work 1000y
+  Only Ise Jingu part is verified. Others marked [VERIFIED]/[DISPUTED]/[UNSOURCED]
+
+## If GitHub dies
+Keep STAMP/*.ots + original files. Bitcoin blockchain still attests.
+
+## If Bitcoin dies
+Metal plate at 62.8915N 27.6780E + paper copies.
+
+[ ] Leave 10% empty - that is Mualiman Napa.
