@@ -1,0 +1,12 @@
+# BIRDS - MITTARI - MEASURE
+
+2026-09-05 baseline - Mualiman Napa 62.8915N 27.6780E - [ ] tyhjä tila
+2026: 0 birds, 0 insects, 0 mushrooms, 0 fish - baseline - suku perustettu
+2027: [ ]
+2028: [ ]
+...
+2100: [ ] - Kuinka monta palasi?
+
+Mittaa linnuissa, ei dollareissa.
+Measure in birds, not dollars.
+鳥で測れ、ドルではない。

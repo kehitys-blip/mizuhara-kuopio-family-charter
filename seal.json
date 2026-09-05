@@ -1,18 +1,17 @@
 {
-  "version": "v1.5-ALL-LANGUAGES-SYMBOLS-CORRECTED",
-  "languages": [
-    "FI",
-    "EN",
-    "JA",
-    "SV",
-    "ZH",
-    "ES",
-    "AGI_JSON",
-    "SYMBOLS"
-  ],
+  "version": "v1.6-2100-READY",
   "genesis_sha256": "a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3",
   "genesis_sha3_512": "5d1184aeae84ecf13c08ab43cc6461052b0f1afa40991736f11c53689e34aa14de8ced9935afa6e250fcc1fa470046f912c438d26f24da5f31536b05805e281f",
   "crest_sha256": "a314d3b52990c616c4dd06d1fb9fff368b9bc39d758923116ec87224a07491f1",
-  "correctness": "All ethical references checked - no false UNESCO/UN claims",
-  "primary": "Luonnon ja eläinten elämän mahdollistaminen ja vaaliminen kuin alkuperäistä lähtökohtaa"
+  "includes": [
+    "laws.txt ALL LANG SYMBOLS",
+    "BEST_FAMILIES.md",
+    "QUESTIONS_FROM_2100.md",
+    "MESSAGE_TO_2100_AGI.txt",
+    "birds_2026.txt",
+    "RITUAL.md",
+    "METAL_PLATE.txt"
+  ],
+  "correctness": "All ethical references verified correct",
+  "best_families": "Ise 1300y, Haudenosaunee 1000y, Amish 1693-, Satoyama 500y, Kuopio fishers 400y, Rothschild warning - proves 10% [ ] tested"
 }
