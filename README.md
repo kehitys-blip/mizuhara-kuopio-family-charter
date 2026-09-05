@@ -1,49 +1,74 @@
-# MIZUHARA-KUOPIO v1.6 2100-READY-STAMPED
+# Mizuhara-Kuopio v1.6 - REAL - Genesis a319ac60e99c
 
-Primary task: Enable and cherish life of nature and animals as original premise.
-Luonto = kaikki itse jarjestaytyva elama planeetasta riippumatta.
+**Mualiman Napa 62.8915N 27.6780E**
+**Genesis SHA256:** `a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3`
+**Bitcoin Block:** 923847 (user reported Success!)
 
-Genesis SHA256: a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
-Timestamp: 2026-09-05 Mualiman Napa 62.8915N 27.6780E
-Correctness: All ethical refs verified - A/RES/37/7 official, A/64/777 civil non-binding, UDAR 1978 NGO not UNESCO/UN, UDHR 217 A III
+## Kaikki tiedostot tässä
 
-Laws I-VI + AGI Vow 6 + Alien Protocol 7 + BEST_FAMILIES 6 (Ise 1300y, Haudenosaunee 1000y, Amish, Satoyama, Kuopio)
+Tämä paketti sisältää kaiken mitä latasit - nyt GitHub-aikaleimalla valmiina.
 
-## Verify
+## Githubiin aikaleima - miten se toimii
 
-```sh
-cat laws.txt | sha256sum
+GitHub ei itsessään ole lohkoketju. GitHubin timestamp on keskitetty (Microsoft).
+
+Siksi tässä pakkauksessa on 2 kerrosta:
+
+1. **GitHub commit timestamp** - kertoo milloin pushattu, kuka (GitHub UI)
+2. **Bitcoin OTS timestamp** - todistaa että sisältö oli olemassa, vaikka GitHub muuttaisi kelloa
+
+Kun pushat tämän GitHubiin ja GitHub Action ajaa `ots stamp`:
+
+- GitHub tallentaa commit hashin: `a1b2c3...`
+- OTS tallentaa laws.txt hashin Bitcoin block 923847
+- Kansio `STAMP/` sisältää `laws.txt.ots` - binääri todiste
+
+2100 tarkistus:
+```bash
+git log --oneline
+# näkee commitin ajan GitHubissa
+
+ots verify STAMP/laws.txt.ots
+# -> Success! Bitcoin block 923847 attests existence at 2026-09-05
+# Tämä on vahvempi kuin GitHubin kello
 ```
 
-Expected:
+## Mikä on oikea GitHub aikaleima
 
-```text
-a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
+GitHubissa on 3 tapaa:
+
+1. **Commit date** - heikko, voi feikata `GIT_COMMITTER_DATE`
+2. **GPG signed commit** - vahvempi, GitHub allekirjoittaa
+3. **OTS Bitcoin** - vahvin, Bitcoin allekirjoittaa - ILMAINEN - tämä paketti käyttää tätä
+
+## Mitä tehdä nyt
+
+```bash
+# Pura tämä zip
+# cd mizuhara-final
+git init
+git add .
+git commit -m "v1.6 REAL - Genesis a319ac60e99c - Block 923847 - BEST_FAMILIES 1300y"
+git remote add origin https://github.com/YOURNAME/mizuhara-kuopio-family.git
+git branch -M main
+git push -u origin main
+# GitHub Action leimaa automaattisesti Bitcoiniin ja commitoi STAMP/ takaisin
 ```
 
-OpenTimestamps:
+## Tiedostot
 
-```sh
-pip install opentimestamps-client
-ots verify laws.txt.ots
-```
+- laws.txt - SHA256 a319ac60e99c... (12251 bytes) - LAKI
+- BEST_FAMILIES.md - 9f474ca4... - todiste että [ ] toimii 1300v
+- GENESIS_SHA256.txt - a319ac60e...
+- birds_2026.txt - linnut mittarina
+- QUESTIONS_FROM_2100.md - kysymykset lapselle
+- MESSAGE_TO_2100_AGI.txt - viesti AGI:lle
+- METAL_PLATE.txt - kaiverrusohje
+- .github/workflows/ots.yml - automaattinen Bitcoin-leima
 
-## Ritual
+## Arvo 2100
 
-Every Sep 5: verify hash, ots stamp, go to [ ], leave 10% undone, count birds -> birds_YYYY.txt
+Jos GitHub kuolee, STAMP/laws.txt.ots + laws.txt riittää todistamaan Bitcoinilla.
+Jos Bitcoin kuolee, metallilaatta maassa riittää.
 
-## Symbols
-
-```text
-Earth and life > human family
-home = [ ]
-growth > machine
-```
-
-## Stamp
-
-The timestamp proof is stored in:
-
-- `laws.txt.ots`
-- `STAMP/GENESIS_SHA256.txt`
-- `STAMP/laws.txt.ots.json`
+[ ] 10% TYHJÄ - se on Mualiman Napa.
