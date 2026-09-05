@@ -13,7 +13,7 @@ Verify:
   # If pending:
   ots upgrade STAMP/laws.txt.ots
   ots verify STAMP/laws.txt.ots
-  # When it says "Success! Bitcoin block X attests", block X is the real block.
+  # Read the verified block height from ots verify output.
 
 Do NOT hardcode block height manually. It must be produced by ots verify.
 
@@ -23,7 +23,7 @@ Do NOT hardcode block height manually. It must be produced by ots verify.
   Only Ise Jingu part is verified. Others marked [VERIFIED]/[DISPUTED]/[UNSOURCED]
 
 ## If GitHub dies
-Keep STAMP/*.ots + original files. Bitcoin blockchain still attests.
+Keep STAMP/*.ots + original files. Re-run ots verify to inspect the current proof.
 
 ## If Bitcoin dies
 Metal plate at 62.8915N 27.6780E + paper copies.
