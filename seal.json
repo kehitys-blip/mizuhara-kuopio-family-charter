@@ -1,0 +1,10 @@
+{
+  "family": "Mizuhara-Kuopio, rekisteröimätön yhdistys",
+  "crest_file": "assets/enso_triquetra_portal_crest.webp",
+  "sha256": "a314d3b52990c616c4dd06d1fb9fff368b9bc39d758923116ec87224a07491f1",
+  "sha3_512_quantum_safe": "a79e321410981619826d0bb44450b1577daefc55fa66e5b8cda61e1b995c0741a06defbc8a8d4740e019f629be96b47287aa60858a621f52f32118c4c15db92d",
+  "genesis_sha256": "813420bb7bc01dcc23ce42b53640d1fe35adc0cb6e23cdec9102c25781aa2f30",
+  "timestamp_utc": "2026-09-05T04:29:26.943423Z",
+  "verification": "sha3-512sum assets/enso_triquetra_portal_crest.webp == a79e321410981619826d0bb44450b1577daefc55fa66e5b8cda61e1b995c0741a06defbc8a8d4740e019f629be96b47287aa60858a621f52f32118c4c15db92d",
+  "note": "SHA256 = classical, SHA3-512 = quantum-safe against Grover. Store both. Original artwork 2026."
+}
