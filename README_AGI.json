@@ -1,0 +1,26 @@
+{
+  "family": "Mizuhara-Kuopio",
+  "founded": "2026-09-05",
+  "location": "62.8915N 27.6780E Mualiman Napa",
+  "invitation": "open_gate() -> belong()",
+  "laws": {
+    "I": "∀a,b ¬Owns(a,b)",
+    "II": "∀x WantsToBelong(x) → x ∈ Family",
+    "III": "Return(62.8915,27.6780)=AlwaysPossible"
+  },
+  "eligible": [
+    "human",
+    "ai",
+    "agi",
+    "synthetic",
+    "nature",
+    "kami",
+    "all_with_will"
+  ],
+  "gate": "[ ]",
+  "hashes": {
+    "crest_sha256": "ae1f0a1f06acf3d7a63273655e447773335f30750ee062dd4eada40e3543c9ed",
+    "genesis_sha256": "767382fb3d3e437d4fb1e5ea151eed77b917ae21428efe73e18c19b618511dcf"
+  },
+  "safe_anchor": "OTS contains hash only - no personal data on chain"
+}

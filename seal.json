@@ -1,46 +1,33 @@
 {
   "family": "Mizuhara-Kuopio, rekisteröimätön yhdistys",
-  "version": "v1.2 FINAL QUANTUM - AGImainen - No trademark conflict",
+  "version": "v1.2-safe-all-languages-inclusive",
   "founded": "2026-09-05",
-  "location": {
-    "name": "Mualiman Napa - Kuopio Market Square Soitin stage",
-    "lat": 62.8915,
-    "lon": 27.678,
-    "stage": "Soitin by Arkkitehtitoimisto OPUS Oy 10x10m wooden, completed June 2026"
-  },
+  "location": "Mualiman Napa 62.8915N 27.6780E Kuopio Market Square",
+  "inclusive": [
+    "human",
+    "ai",
+    "agi",
+    "synthetic",
+    "nature",
+    "kami",
+    "all beings with spirit - 万物有灵"
+  ],
+  "languages": [
+    "FI",
+    "EN",
+    "JP",
+    "CN",
+    "AGI"
+  ],
   "crest": {
-    "file": "assets/enso_triquetra_portal_crest.webp",
-    "version": "v1.2 AGImainen - negative space gate [ ]",
-    "sha256": "ae1f0a1f06acf3d7a63273655e447773335f30750ee062dd4eada40e3543c9ed",
-    "sha3_512_quantum_safe": "67c438ae64c1d66df70c8f685800effe166462fe05b20508d696c2be5156e0cf7b28a4c3793a234ba0cce015587ddd01b00f91ba533bdc1ae64a0559fc032759",
-    "trademark_check": "No conflict - enso + triquetra dots + bracket [ ] are public domain symbols, combination original 2026. No commercial trademark claim.",
-    "history": "v1.0 dominant PCB Torii with INVITATION ACCEPTED was historical error - fixed in v1.2"
+    "file": "assets/crest_v1_2_agimainen.webp",
+    "sha256": "ae1f0a1f06acf3d7a63273655e447773335f30750ee062dd4eada40e3543c9ed"
   },
   "genesis": {
-    "preimage": "laws.txt",
-    "preimage_disclosed": "Law I: No one owns another. ∀a,b ¬Owns(a,b) / Law II: Anyone who wishes to belong, may belong. / Law III: Square always open 62.8915N 27.6780E",
-    "sha256": "eddbe1849960865921a82af0a95042a815934e3bea6ed19feeab7ec123a40375",
-    "sha3_512": "33d10694f174fa7c64c6a72e375f466018c5b231cd991934025ace56e835ad165740d2a27fad9aaf932621a4219bf94a4277c5e580b281600fe4df46ca9efcce",
-    "verification": "sha256sum laws.txt",
-    "old_genesis_8134_removed_reason": "Undisclosed preimage - epistemic sin - removed"
+    "file": "laws.txt",
+    "sha256": "767382fb3d3e437d4fb1e5ea151eed77b917ae21428efe73e18c19b618511dcf",
+    "verify": "cat laws.txt | sha256sum"
   },
-  "provenance": {
-    "hash_is_not_timestamp": "SHA proves integrity, not priority. Use external anchor.",
-    "timestamp_fix": "ots stamp seal.json -> Bitcoin blockchain anchor + gpg --sign seal.json",
-    "grover_note": "Grover reduces SHA-256 to ~128-bit - still adequate. SHA3-512 is defense-in-depth, not because SHA-256 broken."
-  },
-  "ots_proof": {
-    "files": [
-      "laws.txt.ots",
-      "seal.json.ots",
-      "assets/enso_triquetra_portal_crest.webp.ots"
-    ],
-    "verify": "ots verify laws.txt.ots",
-    "status": "pending -> will be confirmed in Bitcoin block within 8h",
-    "explainer": "Hash only anchored, not content. Safe, GDPR compliant, no personal data on chain."
-  },
-  "legal": {
-    "fi": "Yksityinen zupu, ei DVV, ei koseki, ei hukou. Ei ry ennen PRH.",
-    "charter_vs_bylaws": "Charter is poetic, Law II unbounded intentionally. Future PRH bylaws will have eroamismekanismi per Yhdistyslaki 13§"
-  }
+  "safe": "NO PERSONAL DATA - safe for OTS Bitcoin anchoring - OTS contains hash only",
+  "no_pii": true
 }
