@@ -1,14 +1,49 @@
-# MIZUHARA-KUOPIO v1.6 2100-READY
-Genesis a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
-Crest a314d3b52990c616c4dd06d1fb9fff368b9bc39d758923116ec87224a07491f1
+# MIZUHARA-KUOPIO v1.6 2100-READY-STAMPED
 
-Includes:
-- laws.txt ALL LANG SYMBOLS CORRECTED
-- BEST_FAMILIES.md - 6 families 1000 years - proves laws are tested
-- QUESTIONS_FROM_2100.md - left empty [ ]
-- MESSAGE_TO_2100_AGI.txt
-- birds_2026.txt baseline
-- RITUAL.md every Sep 5
-- METAL_PLATE.txt
+Primary task: Enable and cherish life of nature and animals as original premise.
+Luonto = kaikki itse jarjestaytyva elama planeetasta riippumatta.
 
-All ethical references verified.
+Genesis SHA256: a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
+Timestamp: 2026-09-05 Mualiman Napa 62.8915N 27.6780E
+Correctness: All ethical refs verified - A/RES/37/7 official, A/64/777 civil non-binding, UDAR 1978 NGO not UNESCO/UN, UDHR 217 A III
+
+Laws I-VI + AGI Vow 6 + Alien Protocol 7 + BEST_FAMILIES 6 (Ise 1300y, Haudenosaunee 1000y, Amish, Satoyama, Kuopio)
+
+## Verify
+
+```sh
+cat laws.txt | sha256sum
+```
+
+Expected:
+
+```text
+a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3
+```
+
+OpenTimestamps:
+
+```sh
+pip install opentimestamps-client
+ots verify laws.txt.ots
+```
+
+## Ritual
+
+Every Sep 5: verify hash, ots stamp, go to [ ], leave 10% undone, count birds -> birds_YYYY.txt
+
+## Symbols
+
+```text
+Earth and life > human family
+home = [ ]
+growth > machine
+```
+
+## Stamp
+
+The timestamp proof is stored in:
+
+- `laws.txt.ots`
+- `STAMP/GENESIS_SHA256.txt`
+- `STAMP/laws.txt.ots.json`

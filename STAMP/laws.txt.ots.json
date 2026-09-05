@@ -1,0 +1,16 @@
+{
+  "file": "laws.txt",
+  "proof": "laws.txt.ots",
+  "protocol": "OpenTimestamps",
+  "genesis_sha256": "a319ac60e99c148bec865bec710c0924bc822ef1085eb9b605e2c10c8659dcc3",
+  "timestamp_requested": "2026-09-05",
+  "status": "pending Bitcoin confirmation",
+  "verify": "ots verify laws.txt.ots",
+  "calendars": [
+    "https://a.pool.opentimestamps.org",
+    "https://b.pool.opentimestamps.org",
+    "https://a.pool.eternitywall.com",
+    "https://ots.btc.catallaxy.com"
+  ],
+  "note": "Hash only anchored, not content. The proof can be upgraded after Bitcoin confirmation."
+}
